@@ -12,3 +12,6 @@ WIP...🏗️
 
 <br>
 <br />
+
+Session info: https://odsc.com/speakers/using-llm-to-query-data/
+When 📆: May 15, 2025, at 2:00 PM EDT
