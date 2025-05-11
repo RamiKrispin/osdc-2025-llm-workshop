@@ -23,7 +23,7 @@ RUN bash ./settings/install_dependencies.sh
 # Install Quarto
 RUN bash ./settings/install_quarto.sh $QUARTO_VER
 
-# Set Python environment
+# # Set Python environment
 RUN bash ./settings/install_uv.sh $VENV_NAME $PYTHON_VER $RUFF_VER
 RUN SNIPPET="export PROMPT_COMMAND='history -a' && export HISTFILE=/root/.zsh_history && export HISTIGNORE='ls'" \
     && echo "export HISTFILESIZE=1000" >> "/root/.bashrc"\

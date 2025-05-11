@@ -36,14 +36,15 @@ chsh -s $(which zsh)
 # !Installing colorls
 # * Required locales
 gem install colorls
-echo "alias ls='colorls -lA --sd'" >> ${ZDOTDIR:-$HOME}/.zshrc 
+echo "alias lc='colorls -lA --sd'" >> ${ZDOTDIR:-$HOME}/.zshrc 
 locale-gen en_US.UTF-8
 
 
 # Adding fastfetch
-add-apt-repository -y  ppa:zhangsongcui3371/fastfetch  
+add-apt-repository -y ppa:zhangsongcui3371/fastfetch
+add-apt-repository -y ppa:zhangsongcui3371/fastfetch
+apt-get update && apt-get install fastfetch
 echo "fastfetch" >> ${ZDOTDIR:-$HOME}/.zshrc
-
 
 # TODO
 # ! Check why it install old fzf version 
