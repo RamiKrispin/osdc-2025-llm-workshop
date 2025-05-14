@@ -9,3 +9,4 @@ jupyter
 duckdb==1.2.2
 openai==1.77.0 
 pointblank==0.6.3 
+google-genai==1.15.0

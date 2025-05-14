@@ -47,6 +47,7 @@
     ],
     // Optional set environment variables:
     "remoteEnv": {
-        "OPENAI_API_KEY": "${localEnv:OPENAI_API_KEY}"
+        "OPENAI_API_KEY": "${localEnv:OPENAI_API_KEY}",
+        "GEMINI_API_KEY": "${localEnv:GEMINI_API_KEY}"
     }
 }
